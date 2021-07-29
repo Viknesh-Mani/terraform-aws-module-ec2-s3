@@ -7,13 +7,13 @@ Example:
 Use it as modules:
 
 module "server" {
-    source = "/data/Gagandeep/app3"
+    source = "/data/Viknesh/app3"
     ami = "ami-00399ec92321828f5"
 }
  or you can passon parameter for Instance type as well:
 
 module "server2" {
-    source = "/data/Gagandeep/app3"
+    source = "/data/Viknesh/app3"
     i_type = "t2.nano"
 }
 
